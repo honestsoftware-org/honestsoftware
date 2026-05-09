@@ -1,0 +1,33 @@
+All documents in this repository — the HONEST Software Manifesto, the
+Inviolata Principle, the Designed-In Succession design, the License
+Concept, the Trademark Policy, the Adopters' Registry, and the README —
+are released under the:
+
+    Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+The full text of CC BY 4.0 is available at:
+
+    https://creativecommons.org/licenses/by/4.0/legalcode
+
+Summary of permissions granted (this is a courtesy summary; the
+authoritative text is the license linked above):
+
+  - You may share, copy, redistribute, modify, and republish these
+    documents in any medium or format, including under different names.
+  - You must give appropriate attribution to the source repository
+    (https://github.com/honestsoftware-org/honestsoftware), provide a
+    link to the CC BY 4.0 license, and indicate if you made changes.
+  - You may not apply legal terms or technological measures that
+    legally restrict others from doing anything the license permits.
+
+THE NAMES "HONEST," "HONEST SOFTWARE," "HONEST MANIFESTO," "HONEST
+LICENSE," "HONEST-COMPLIANT," and "INVIOLATA" — as identity claims and
+as trademarks — are not granted by this license. Their use is governed
+separately by TRADEMARK.md in this repository. Per that policy, factual,
+descriptive, editorial, journalistic, academic, and adversarial-critical
+use is explicitly permitted; identity-claiming commercial use is gated.
+
+The HONEST License (currently in concept form at LICENSE-CONCEPT.md) is
+a separate license intended for *software code* that adopts the HONEST
+Manifesto. It is NOT this LICENSE; this LICENSE governs only the
+documents in this repository.

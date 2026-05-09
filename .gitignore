@@ -1,0 +1,20 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Working scratch
+*.tmp
+*.bak
+.scratch/
+
+# Future site build artifacts (when honestsoftware.org is built)
+_site/
+public/
+node_modules/
+.cache/
+dist/
