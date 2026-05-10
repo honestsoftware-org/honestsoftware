@@ -53,13 +53,6 @@ In reading order:
 
 ---
 
-## The first reference implementation
-
-**VaultAI** — [github.com/sgireddy/VaultAI](https://github.com/sgireddy/VaultAI) — is the first reference implementation of HONEST. It is a personal AI vault that runs entirely on the user's hardware: open weights, local inference, no telemetry, no network in normal operation, the trust enclave architecturally sealed, the user's data their own.
-
-VaultAI is *one* implementation. Others are welcome — encouraged. The movement is not the product. If you build software that honors the Six Pillars and Inviolata, you are part of HONEST whether or not you ever use any line of VaultAI code.
-
----
 
 ## Adoption
 
