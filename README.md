@@ -43,11 +43,13 @@ In reading order:
 
 3. **[`SUCCESSION.md`](./SUCCESSION.md)** — *Designed-In Succession v0.1.* The hardest case for Inviolata is *the user dies; heirs need access; we hold no keys.* Without a designed-in answer, every "no backdoor" promise becomes a wedge for a backdoor later. This document is the answer: user-designed succession via Shamir's Secret Sharing, configurable triggers, compartment-aware key splitting, mandatory dry-run testing. **Released under CC BY 4.0.**
 
-4. **[`LICENSE-CONCEPT.md`](./LICENSE-CONCEPT.md)** — *The HONEST License v0.1 (Concept).* The legal mechanism in concept form. Source-available, with broad rights for individual / household / educational / charitable / research use, and conditional rights for commercial and institutional operators who themselves honor the six HONEST pillars toward their end users. **Deliberately not OSI-approved**, because OSI's Open Source Definition forbids the field-of-endeavor discrimination this license depends on. To be drafted into enforceable text by qualified counsel before any production use.
+4. **[`FEDERATION.md`](./FEDERATION.md)** — *The Federation Concept v0.1: Owner-Sovereign Federation.* The architectural-layer commitment for federation between vaults. Each vault is a first-class peer; no central identity provider; no operator-mediated directory; trust expressed as a typed, scoped, time-bounded, revocable graph owned by the granting user. Includes the *doctor scenario* worked example (unconscious in the ER, no operator to call). Concept-level; the wire protocol is deferred. **Released under CC BY 4.0.**
 
-5. **[`TRADEMARK.md`](./TRADEMARK.md)** — *The HONEST Trademark Policy v0.1 (Placeholder).* No marks are filed yet. The intended policy is documented so good-faith adopters know what they are agreeing to.
+5. **[`LICENSE-CONCEPT.md`](./LICENSE-CONCEPT.md)** — *The HONEST License v0.1 (Concept).* The legal mechanism in concept form. Source-available, with broad rights for individual / household / educational / charitable / research use, and conditional rights for commercial and institutional operators who themselves honor the six HONEST pillars toward their end users. **Deliberately not OSI-approved**, because OSI's Open Source Definition forbids the field-of-endeavor discrimination this license depends on. To be drafted into enforceable text by qualified counsel before any production use.
 
-6. **[`ADOPTERS.md`](./ADOPTERS.md)** — *The HONEST Adopters' Registry.* Public list of projects that have declared adherence to the Manifesto. Open, on the honor system, no certification. Currently lists only the first reference implementation; that is the honest current state.
+6. **[`TRADEMARK.md`](./TRADEMARK.md)** — *The HONEST Trademark Policy v0.1 (Placeholder).* No marks are filed yet. The intended policy is documented so good-faith adopters know what they are agreeing to.
+
+7. **[`ADOPTERS.md`](./ADOPTERS.md)** — *The HONEST Adopters' Registry.* Public list of projects that have declared adherence to the Manifesto. Open, on the honor system, no certification. Currently lists only the first reference implementation; that is the honest current state.
 
 ---
 

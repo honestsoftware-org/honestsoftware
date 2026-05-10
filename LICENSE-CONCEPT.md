@@ -188,14 +188,51 @@ These prohibitions apply whether the practice is described as "free,"
 "freemium," "ad-supported," "for research," "for safety," "for product
 improvement," or under any other characterization.
 
-### 4.8 Federation discipline (placeholder)
+### 4.8 Federation discipline (Owner-Sovereign Federation)
 
-*This subsection is reserved for federation-specific licensing terms
-(capability-mediated peer-to-peer access, owner-sovereign data flow
-direction, doctor/institution-to-vault write semantics, etc.). It will
-be drafted as part of the Federation work-stream. Until then, the
-existing §4.3 Network discipline governs all federation between vaults
-under the same condition: explicit, user-authorized, time-bounded.*
+A product or service that incorporates the licensed work and offers
+federation between vaults, relays for federation traffic, or any
+ancillary federation infrastructure shall honor the **Owner-Sovereign
+Federation Principle** as declared in [`FEDERATION.md`](./FEDERATION.md).
+This subsection operationalizes that commitment as license terms.
+
+Specifically, a licensee operating any federation-capable HONEST vault,
+relay, or ancillary infrastructure shall NOT:
+
+- Introduce, operate, or rely on a **centralized identity provider**,
+  an **operator-mediated trust directory**, an **operator-held trust
+  ledger**, or any architectural element that gives the licensee — or
+  any party other than the participating users themselves — a position
+  from which the social graph or trust-grant structure may be
+  enumerated, indexed, or compelled to be disclosed.
+- Operate a **queryable global directory** mapping user-meaningful
+  handles (names, email addresses, phone numbers, organizational
+  identifiers) to vault public keys. Cross-user discovery may proceed
+  only through the user's own contacts, mutual-introduction handshakes,
+  or out-of-band channels. Vault-local indexes (under exclusive user
+  control) are unaffected.
+- **Retain message bodies, capability uses, or grant traffic** beyond
+  the standard relay lifetime needed for in-flight delivery, nor delay
+  revocation propagation as a service feature, nor charge for
+  revocation processing.
+- Hold a copy of any user's trust graph except (a) for the duration
+  of relay transit, (b) as cryptographic ciphertext to which the
+  licensee has no key, and (c) at the minimum metadata floor required
+  by the chosen transport.
+
+A licensee operating a federation relay compelled by any jurisdiction
+to retain or reveal federation traffic in violation of these terms
+shall **cease operating the relay in that jurisdiction** rather than
+comply, on identical terms to the Lavabit clause at §4.9.1 below.
+
+The existing §4.3 Network discipline applies in addition: federation
+remains subject to explicit, user-authorized, time-bounded activation
+on a kernel-enforced phase-separated boundary (FR-55).
+
+These terms compose with §4.9 (Inviolata clause). Federation is the
+layer at which Inviolata is most easily silently undone; the
+prohibitions above are the architectural enforcement of *no
+operator-held wedge* in the federation transport.
 
 ### 4.9 Inviolata — the Constitutional Layer
 
